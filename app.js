@@ -1,4 +1,6 @@
-var cities = ["NYC", "SF", "LA", "ATX", "SYD"];
+// make an array of the cities
+
+var cities = ["New York City", "San Francisco", "Los Angeles", "Austin", "Sydney"];
 
 $(document).ready(function(){
 	var options = '';
@@ -9,22 +11,23 @@ $(document).ready(function(){
 			text: cities [i]
 		});
 
-		$('#cities-type').append(option);
+		$('#city-type').append(option);
 
 		$("select").change(function() {
 
-       var city = $("#cities-type").val();
+       var city = $("#city-type").val();
      
-
+       // make photo change on selection
        if (city == "New York City"){
-           $('body').attr('class','nyc');
+           $('body').attr('class','NYC');
        } else if (city == "San Francisco"){
-           $('body').attr('class','sf');
+           $('body').attr('class','SF');
        } else if (city == "Los Angeles"){
-           $('body').attr('class','la');
-       } else if (city == "Austin, TX"){
-           $('body').attr('class','austin');
+           $('body').attr('class','LA');
+       } else if (city == "Austin"){
+           $('body').attr('class','ATX');
        } else if (city == "Sydney"){
+       		$('body').attr('class',"SYD")
 
 
 	}
