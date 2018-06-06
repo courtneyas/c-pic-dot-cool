@@ -49,6 +49,6 @@ $(document).ready(function(){
 
    
 
-//        $("#city-type").val('');
-//    });
-// });
+       $("#city-type").val('');
+   });
+});
