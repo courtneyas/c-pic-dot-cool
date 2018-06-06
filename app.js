@@ -34,7 +34,9 @@ $(document).ready(function(){
 
 	$('#city-type').on('change', function(){
 		var cities = $('#city-type').val();
-		planet = planet.toLowerCase().trim();}
+		planet = planet.toLowerCase().trim();
+
+	});
 
 
 
