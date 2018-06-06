@@ -38,7 +38,7 @@ $(document).ready(function(){
 	})
 
 
-})
+
 
 //  var options = '';
 //    for (var i = 0; i < city.length; i++) {
